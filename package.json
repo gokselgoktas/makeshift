@@ -1,0 +1,19 @@
+{
+    "name": "makeshift",
+    "version": "1.0.0",
+    "description": "A simple tool for creating three.js fueled visuals",
+    "homepage": "https://github.com/gokselgoktas/makeshift",
+    "bugs": {
+        "url": "https://github.com/gokselgoktas/makeshift/issues"
+    },
+    "license": "WTFPL",
+    "author": "Göksel Göktas",
+    "main": "index.js",
+    "repository": "github:gokselgoktas/makeshift",
+    "scripts": {},
+    "engines": {
+        "node": ">=16.9.1",
+        "npm": ">=7.21.1"
+    },
+    "private": true
+}
