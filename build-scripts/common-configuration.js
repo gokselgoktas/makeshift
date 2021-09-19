@@ -10,12 +10,12 @@ const TerserWebpackPlugin = require('terser-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
-    entry: path.resolve('src', 'index.js'),
+    entry: path.resolve('src', 'index.ts'),
 
     module: {
         rules: [
             {
-                test: /\.js$/,
+                test: /\.(j|t)s$/,
                 exclude: /node-modules/,
 
                 use: 'babel-loader',
@@ -55,6 +55,6 @@ module.exports = {
     ],
 
     resolve: {
-        extensions: ['.js', '.json'],
+        extensions: ['.ts', '.js', '.json'],
     },
 };
